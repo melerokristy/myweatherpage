@@ -16,7 +16,7 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form"> id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
@@ -30,19 +30,20 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city" id="city"></h1>
+            <h1 class="weather-app-city" id="city">Chicago</h1>
             <p class="weather-app-details">
-               <span id="time"></span>,
-              <span id="description"></span>
+               <span id="time">Friday 02:22</span>,
+              <span id="description">Clear sky</span>
               <br />
-              Humidity: <strong id="humidity"></strong>, Wind:
-              <strong id="wind-speed"></strong>
+              Humidity: <strong id="humidity">60%</strong>, Wind:
+              <strong id="wind-speed">10ml/hr</strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
             <div id="icon"></div>
-            <div class="weather-app-temperature" id="temperature"></div>
-            <div class="weatehr-app-unit">°C</div>
+           <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png" class="weather-app-icon"> 
+            <div class="weather-app-temperature" id="temperature">65</div>
+            <div class="weatehr-app-unit">°F</div>
           </div>
         </div>
       </main>
